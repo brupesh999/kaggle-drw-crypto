@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+
+# PyInstaller
+*.manifest
+*.spec
+
+# macOS and Linux
+.DS_Store
+.Trashes
+*.swp
+*.swo
+*.bak
+
+# VSCode settings
+.vscode/
+
+# Kaggle/colab metadata
+.kaggle/
+.kaggle.json
+*.ipynb_convert*
+
+# Data and model artifacts
+data/
+*.csv
+*.parquet
+*.npy
+*.h5
+*.pkl
+*.joblib
+*.ckpt
+*.pt
+*.onnx
+
+# Output and logs
+logs/
+*.log
+*.out
+*.err
+
+# Experiments or large outputs
+outputs/
+checkpoints/
+runs/
+models/
