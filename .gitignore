@@ -56,3 +56,4 @@ outputs/
 checkpoints/
 runs/
 models/
+.env
