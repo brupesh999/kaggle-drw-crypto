@@ -1,2 +1,4 @@
 # kaggle-drw-crypto
 Code written for Kaggle DRW Crypto Market Prediction Competition 2025
+
+After an initial exploratory data analysis (and reducing the data to take up less space), I trained a baseline LightGBM model and compared the most important features to those from a Pearson correlation to the label. After that, I selected the top 400 features to use (reduced from 800+). Then, I tweaked the LightGBM model a bit and ran it with time series splits (similar to K-fold analysis, but aware of the order of the data so there is no future data leakage when training). Additionally, I used Optuna and wandb to track model performance with different hyperparameters to settle on the best hyperparameters to use and create predictions that way. Finally, I trained an XGBoost model in a similar way. For each run, I tracked rmse and Pearson performance, as the competition measured scores based on the Pearson correlation of submitted target predictions.
