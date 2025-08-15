@@ -57,3 +57,4 @@ checkpoints/
 runs/
 models/
 .env
+/test_notebooks
