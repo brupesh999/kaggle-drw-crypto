@@ -1,7 +1,7 @@
 # DRW Crypto Market Prediction – Kaggle 2025
 This repository contains my work for the Kaggle DRW Crypto Market Prediction Competition (2025). The goal was to forecast short-term cryptocurrency market returns from noisy time-series data using anonymized features.
 
-### Tools & Libraries
+### Major Tools & Libraries
 - Python, Pandas, NumPy
 - LightGBM, XGBoost
 - Optuna (hyperparameter tuning)
